@@ -51,9 +51,9 @@ public class ConfigOptions
     	biomeCretaceousDry = config.get("Biome IDs", "Dry Cretaceous Biome ID:", 58).getInt();
     	
     	disableTrilobite = config.get("Disable Mobs(use with other mods with duplicate animals)", "Disable Trilobite", false).getBoolean(false);
-    	disableCeolophysis = config.get("Disable Mobs(use with other mods with duplicate animals)", "Disable Ceolophysis", false).getBoolean(false);
+    	disableCoelophysis = config.get("Disable Mobs(use with other mods with duplicate animals)", "Disable Coelophysis", false).getBoolean(false);
     	disableCompsognathus = config.get("Disable Mobs(use with other mods with duplicate animals)", "Disable Compsognathus", false).getBoolean(false);
-    	disableDilodocus = config.get("Disable Mobs(use with other mods with duplicate animals)", "Disable Compsognathus", false).getBoolean(false);
+    	disableDiplodocus = config.get("Disable Mobs(use with other mods with duplicate animals)", "Disable Diplodocus", false).getBoolean(false);
     	disableDilophosaurus = config.get("Disable Mobs(use with other mods with duplicate animals)", "Disable Dilophosaurus", false).getBoolean(false);
     	disablePsittacosaurus = config.get("Disable Mobs(use with other mods with duplicate animals)", "Disable Psittacosaurus", false).getBoolean(false);
     	disableCarnotaurus = config.get("Disable Mobs(use with other mods with duplicate animals)", "Disable Carnotaurus", false).getBoolean(false);
